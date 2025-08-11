@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>Teste_Xbits.ApplicationService</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="DataTransferObjects\" />
+      <Folder Include="Interfaces\MapperContracts\" />
+      <Folder Include="Interfaces\ServiceContracts\" />
+      <Folder Include="Mappers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Teste-Xbits.Domain\Teste-Xbits.Domain.csproj" />
+      <ProjectReference Include="..\Teste-Xbits.Infra\Teste-Xbits.Infra.csproj" />
+    </ItemGroup>
+
+</Project>
